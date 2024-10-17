@@ -1,0 +1,11 @@
+html, body {
+    height: 100%;
+}
+
+.form-floating > #email::placeholder {
+    color: revert;
+}
+
+.form-floating > #email:not(:focus)::placeholder {
+    color: transparent;
+}
