@@ -9,3 +9,9 @@ html, body {
 .form-floating > #email:not(:focus)::placeholder {
     color: transparent;
 }
+
+@media (min-width: 900px) {
+    .row {
+        margin: 0px 48px;
+    }
+}
